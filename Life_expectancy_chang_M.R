@@ -1,3 +1,23 @@
+"
+***************************************************************************
+life_expectancy_chang_M.R
+---------------------
+Date                 : December 2019
+Copyright            : (C) 2019 by Felipe Carranza
+Email                : fcarranza@protonmail.com
+***************************************************************************
+*                                                                         *
+*   This program is free software; you can redistribute it and/or modify  *
+*   it under the terms of the MIT  License *
+*                                                                         *
+*                                                                         *
+***************************************************************************
+
+__author__ = 'Felipe Carranza'
+__date__ = 'December 2019'
+__copyright__ = '(C) 2019, Felipe Carranza'
+"
+"Real case applied to El Salvador microdata census 2007 for municipal research"
 library(foreign)
 #Read the  census microdata more than 5 Millions of rows
 poblation <- read.dta("BaseTotalPer.dta",convert.dates = T,convert.factors = F)
