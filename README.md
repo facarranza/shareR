@@ -1,2 +1,2 @@
 # shareR
-Inference, Regresión,Correlation,Spatial and Sampling with R
+Inference, Regresión,Correlation,Experimental Design, Spatial and Sampling with R
